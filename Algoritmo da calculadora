@@ -1,0 +1,53 @@
+variavel a, b, res: double
+
+inicio 
+escreva ("Informe o primeiro número: ")
+        leia (a)
+     escreva ("Informe o segundo número: ")
+        leia (b)
+
+Escolha ("op")
+
+caso (soma):
+
+res <- a+ b
+
+escreva ("Resultado: ", res)
+
+fim
+
+caso (subtracao):
+
+
+res <- a- b
+
+escreva ("Resultado:", res)
+
+fim
+
+caso (multiplicacao):
+
+
+res <- a * b    
+
+escreva ("Resultado: ", res)
+fim
+
+caso (divisao):
+
+res <- a / b
+
+	se (b=0)
+	Escreva ("Divisao por zero")
+	senao
+	Escreva ("Resultado: ", res)
+fim
+
+fim algoritmo
+
+
+
+
+
+
+
